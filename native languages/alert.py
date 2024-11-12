@@ -1,6 +1,5 @@
 from ghidra.program.model.listing import Listing
 from ghidra.program.model.listing import Instruction
-from ghidra.util.task import ConsoleTaskMonitor
 
 def detect_cpuid_instructions():
     print("here I started the detection")
