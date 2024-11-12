@@ -5,7 +5,6 @@ from ghidra.util.task import ConsoleTaskMonitor
 def detect_cpuid_instructions():
     print("here I started the detection")
     listing = currentProgram.getListing()
-    monitor = ConsoleTaskMonitor()
     
     # Iterate over all instructions in the current program
     for instruction in listing.getInstructions(True):
